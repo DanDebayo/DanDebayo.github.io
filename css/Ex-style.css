@@ -1,0 +1,140 @@
+* {
+
+    box-sizing: border-box;
+  
+    margin: 0;
+  
+    padding: 0;
+  
+  }
+  
+  
+  body {
+  
+    font-family: Arial, sans-serif;
+  
+    line-height: 1.6;
+  
+    color: #333;
+  
+    background-color: #f9f9f9;
+  
+  }
+  
+  
+  /* Header styles */
+  
+  
+  .header {
+  
+    background-color: #333;
+  
+    color: #fff;
+  
+    padding: 1em;
+  
+    text-align: center;
+  
+  }
+  
+  
+  .header .nav {
+  
+    list-style: none;
+  
+    margin: 0;
+  
+    padding: 0;
+  
+    display: flex;
+  
+    justify-content: space-between;
+  
+  }
+  
+  
+  .header .nav__item {
+  
+    margin-right: 20px;
+  
+  }
+  
+  
+  .header .nav__item a {
+  
+    color: #fff;
+  
+    text-decoration: none;
+  
+  }
+  
+  
+  .header .nav__item a:hover {
+  
+    color: #ccc;
+  
+  }
+  
+  
+  /* Main styles */
+  
+  
+  .main {
+  
+    max-width: 800px;
+  
+    margin: 40px auto;
+  
+    padding: 20px;
+  
+  }
+  
+  
+  .experience {
+  
+    margin-bottom: 40px;
+  
+  }
+  
+  
+  .experience__item {
+  
+    margin-bottom: 20px;
+  
+  }
+  
+  
+  .experience__item h2 {
+  
+    margin-top: 0;
+  
+  }
+  
+  
+  .experience__list {
+  
+    list-style: none;
+  
+    margin: 0;
+  
+    padding: 0;
+  
+  }
+  
+  
+  .experience__list li {
+  
+    margin-bottom: 10px;
+  
+  }
+  
+  
+  .experience__list li:before {
+  
+    content: "\2022";
+  
+    margin-right: 10px;
+  
+    color: #666;
+  
+  }
