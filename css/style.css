@@ -1,0 +1,79 @@
+/* dark-theme.css */
+
+:root {
+    --primary-color: #333;
+    --secondary-color: #444;
+    --background-color: #222;
+    --text-color: #fff;
+    --link-color: #66d9ef;
+  }
+  
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  .header {
+    background-color: var(--primary-color);
+    padding: 1em;
+    text-align: center;
+  }
+  
+  .header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .header nav li {
+    margin-right: 20px;
+  }
+  
+  .header nav a {
+    color: var(--text-color);
+    text-decoration: none;
+  }
+  
+  .main {
+    padding: 2em;
+  }
+  
+  .gallery-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .gallery-row img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .footer {
+    background-color: var(--primary-color);
+    padding: 1em;
+    text-align: center;
+  }
+  
+  .footer .social-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer .social-links li {
+    margin-right: 20px;
+  }
+  
+  .footer .social-links a {
+    color: var(--text-color);
+    text-decoration: none;
+  }
+  
+  .footer .social-links a:hover {
+    color: var(--link-color);
+  }
