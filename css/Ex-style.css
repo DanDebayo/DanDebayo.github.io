@@ -1,165 +1,111 @@
 * {
-
-  box-sizing: border-box;
-
   margin: 0;
-
   padding: 0;
-
+  box-sizing: border-box;
 }
 
-
+/* Global styles */
 body {
-
   font-family: Arial, sans-serif;
-
-  line-height: 1.6;
-
+  font-size: 16px;
+  line-height: 1.5;
   color: #333;
-
-  background-color: #f9f9f9;
-
 }
 
+h1, h2 {
+  font-weight: normal;
+  margin-bottom: 0.5rem;
+}
 
-/* Header Styles */
+p {
+  margin-bottom: 1rem;
+}
 
+a {
+  color: #007bff;
+  text-decoration: none;
+}
 
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Header styles */
 .site-header {
-
   background-color: #333;
-
   color: #fff;
-
-  padding: 20px;
-
-  text-align: center;
-
+  padding: 1rem;
 }
 
+.site-header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .site-header nav ul {
-
+  display: flex;
   list-style: none;
-
-  margin: 0;
-
-  padding: 0;
-
-  display: flex;
-
-  justify-content: space-between;
-
 }
 
-
-.site-header nav li {
-
-  margin-right: 20px;
-
+.site-header nav ul li {
+  margin-right: 1rem;
 }
 
-
-.site-header nav a {
-
-  color: #fff;
-
-  text-decoration: none;
-
+.site-header hr {
+  border: none;
+  height: 1px;
+  background-color: #fff;
+  margin: 1rem 0;
 }
 
-
-.site-header nav a:hover {
-
-  color: #ccc;
-
-}
-
-
-/* Main Styles */
-
-
+/* Main styles */
 .site-main {
-
-  display: flex;
-
-  flex-direction: column;
-
-  align-items: center;
-
-  padding: 40px;
-
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
 }
-
 
 .experience-section {
-
-  background-color: #f7f7f7;
-
-  padding: 20px;
-
-  border: 1px solid #ddd;
-
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-
+  margin-bottom: 2rem;
 }
-
 
 .experience-section h1 {
-
-  font-size: 36px;
-
-  margin-bottom: 10px;
-
+  margin-bottom: 1rem;
 }
 
+.experience-section p {
+  margin-bottom: 1rem;
+}
 
 .experience-item {
-
-  margin-bottom: 20px;
-
+  margin-bottom: 2rem;
 }
-
 
 .experience-item h2 {
-
-  font-size: 24px;
-
-  margin-bottom: 10px;
-
+  margin-bottom: 0.5rem;
 }
 
+.experience-item p {
+  margin-bottom: 0.5rem;
+}
 
 .experience-item ul {
-
-  list-style: none;
-
-  margin: 0;
-
-  padding: 0;
-
+  margin-left: 2rem;
 }
-
 
 .experience-item li {
-
-  margin-bottom: 10px;
-
+  margin-bottom: 0.5rem;
 }
 
-
-.experience-item li:before {
-
-  content: "";
-
-  display: inline-block;
-
-  width: 10px;
-
-  height: 10px;
-
-  background-color: #ccc;
-
-  margin-right: 10px;
-
+.experience-item hr {
+  border: none;
+  height: 1px;
+  background-color: #333;
+  margin: 1rem 0;
 }
