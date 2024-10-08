@@ -1,137 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
     <meta charset="utf-8">
-
-    <title>Olasubomi Adebayo</title>
-
+    <title>Daniel Adebayo</title>
     <meta name="description" content="">
-
     <meta name="author" content="">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <link rel="stylesheet" href="custom.css">
 
-    <link rel="stylesheet" href="/css/proj-style.css">
-
-    <link rel="icon" type="image/png" href="/img/favicon.png">
-
+    <link rel="icon" type="image/png" href="images/undraw/logo.png">
+    <style>
+      .project-row img {
+          width: 100%; /* Make it responsive, adjusting to container size */
+          max-width: 400px; /* Set a max width for the image */
+          height: auto; /* Maintain aspect ratio */
+      }
+    </style>
 </head>
-
 <body>
 
-
-    <header class="header">
-
-        <nav>
-
+    <div class="header container">
+      <div class="row">
+        <div class="twelve columns">
+          <nav>
             <ul>
-
-                  <li><a href="/index.html">Home</a></li>
-
-                <li><a href="/Experience.html">Experience</a></li>
-
+                <li class="myname"><a href="index.html">Daniel Adebayo</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="resume.html">Resume</a></li>
             </ul>
-
         </nav>
+        </div>
+      </div>
+      <hr>
+    </div>
 
-        <hr>
+ 
+<div class="container">
+  <div class="row">
+    <div class="twelve columns">
 
-    </header>
+      <h1>Projects</h1>
 
+      This is a curated list of projects that I have worked on throughout
+      the years.
 
-    <main class="container">
+    </div>
+  </div>
 
-        <section class="project-section">
+  <hr>
 
-            <h1>Projects</h1>
+  <!-- Project One Start -->
+  <div class="row project-row">
+    <div class="two-thirds column">
+      <h2 id="2D Particle system"><a href="https://github.com/DanDebayo/Particles-SFML-">2D Particles-SFML</a></h2>
+      
+      <p>
+        Particle System with SFML
+        A simple particle system built using C++ and the SFML library. This project simulates particles with random positions, velocities, and lifespans, 
+        creating a dynamic visual effect. Each particle moves according to its velocity and fades out after a set lifespan, offering a customizable and visually engaging simulation.
+      </p>
+   
+    </div>
+    <div class="one-third column">
+      <a href="https://github.com/DanDebayo/Particles-SFML-"><img src="images/project/Particles_SFML.png" alt="img"></a>
+    </div>
+  </div>
+  <!-- Project One End -->
 
-            <p>This is a curated list of projects that I have worked on throughout the years.</p>
+  <hr>
 
+  <!-- Project Two Start -->
+  <div class="row project-row">
+    <div class="two-thirds column">
+      <h2 id="Snake-sfml"><a href="https://github.com/DanDebayo/Snake-game">Snake-game</a></h2>
+      
+      <p>
+        This is a classic Snake game developed using SFML (Simple and Fast Multimedia Library). The game features a user-friendly interface with a dynamic menu, allowing players to start or exit the game easily. 
+        Players control the snake to collect food while avoiding collisions with the walls and their own tail. 
+        The game implements various features, including score tracking, pause functionality, and a visually appealing graphical environment.
+      </p>
+   
+    </div>
+    <div class="one-third column">
+      <a href="https://github.com/DanDebayo/Snake-game"><img src="images/project/Snake_SFML.png" alt="img"></a>
+    </div>
+  </div>
+  <!-- Project Two End -->
 
-            <div class="project-row">
+  <hr>
 
-                <div class="project-column">
+  <!-- Project Three Start -->
+  <div class="row project-row">
+    <div class="two-thirds column">
+      <h2 id="SPU-gradpro"><a href="https://github.com/kimanjea/SPU-GradPro">SPU-Gradpro</a></h2>
+      
+      <p>
+        In recent years, Seattle Pacific University's (SPU) enrollment numbers have been decreasing, particularly among students pursuing a Computer Science major. To address this challenge, we, the 3D Trailblazers, developed SPU GradPro, a 3D aided design game aimed at retaining current SPU students in the engineering and computer science department. Our goal is to inspire students to navigate the rigorous curriculum and attract incoming freshmen and transfer students to SPU.
 
-                    <h2 class="project-title"><a href="https://github.com/kimanjea/SPU-GradPro">SPU Grad Pro(Unity/C#)</a></h2>
+The app focuses on concepts from SPU's Data Structures 1 and 2 courses and incorporates LeetCode-inspired questions. Through various engaging game mechanics, SPU GradPro enhances knowledge retention while providing a fun and immersive college experience.
 
-                    <p class="project-desc">Created a game in Unity as a group final project to simulate the CS college experience by teaching Data structure concepts for easier understanding for new students. Created various tools for the designer to make it easier for them as well as optimizing the game to be capable of multiple devices.</p>
+<p> Watch the demo <a href="https://www.youtube.com/watch?v=yrzPnA0HnA0">here</a>.</p>
+      </p>
+   
+    </div>
+    <div class="one-third column">
+      <a href="https://github.com/kimanjea/SPU-GradPro"><img src="images/project/SPU-gradpro.png" alt="img"></a>
+    </div>
+  </div>
+  <!-- Project Three End -->
 
-                    <a class="project-img"><img src="/images/SPUGradpro.png"></a>
+  <hr>
 
-                </div>
+</div>
 
-            </div>
-
-
-            <div class="project-row">
-
-                <div class="project-column">
-
-                    <h2 class="project-title"><a href="https://github.com/DanDebayo/Snake-game">Snake Game (SFML)</a></h2>
-
-                    <p class="project-desc">Created a dynamic Snake game using SFML library, gaining insight into game development without relying on pre-built engines. Developed skills in graphical user interface (GUI) programming and game physics, honing expertise in interactive software design. Also, designed and implemented a mini particle system in SFML, enhancing knowledge in visual effects.</p>
-
-                    <a class="project-img" href="https://github.com/DanDebayo/Snake-Game-SFML"><img src="/img/gallery/snake-game-screenshot.webp" alt="Screenshot of Snake Game project"></a>
-
-                </div>
-
-            </div>
-
-
-            <div class="project-row">
-
-                <div class="project-column">
-
-                    <h2 class="project-title"><a href="https://github.com/DanDebayo/AI_gametraining">AI Trained Flappy Bird (SFML)</a></h2>
-
-                    <p class="project-desc">Developed an AI-powered Flappy Bird game using machine learning algorithms, demonstrating expertise in artificial intelligence and game development. Trained a neural network to play the game autonomously, achieving high scores and showcasing ability to apply AI concepts to real-world problems.</p>
-
-                    <a class="project-img" href="https://github.com/DanDebayo/AI-Flappy-Bird"><img src="/img/gallery/flappy-bird-screenshot.webp" alt="Screenshot of AI Trained Flappy Bird project"></a>
-
-                </div>
-
-            </div>
-
-
-            <div class="project-row">
-
-                <div class="project-column">
-
-                    <h2 class="project-title"><a href ="https://github.com/DanDebayo/Battleships">Terminal Battleships Game (C++)</a></h2>
-
-                    <p class="project-desc">Designed and implemented a terminal-based Battleships game in C++, utilizing object-oriented programming principles and demonstrating expertise in game logic and algorithm design. Implemented a robust game engine, allowing for seamless gameplay and user interaction.</p>
-
-                    <a class="project-img" href="https://github.com/DanDebayo/Terminal-Battleships-Game"><img src="/img/gallery/battleships-screenshot.webp" alt="Screenshot of Terminal Battleships Game project"></a>
-
-                </div>
-
-            </div>
-
-
-            <div class="project-row">
-
-                <div class="project-column">
-
-                    <h2 class="project-title"><a href ="https://github.com/DanDebayo/coop_game">Co-op game UE4/C++</a></h2>
-
-                    <p class="project-desc">Created a 3D co-op first-person shooter game using Unreal Engine 4. Developed expertise in game development, level design, and multiplayer architecture. Implemented advanced features such as dynamic lighting, particle effects, and AI behaviors, showcasing ability to work on complex game projects.</p>
-
-                    <a class="project-img" href="https://github.com/DanDebayo/Echoes-of-Eternity"><img src="/img/gallery/echoes-of-eternity-screenshot.webp" alt="Screenshot of Echoes of Eternity project"></a>
-
-                </div>
-
-            </div>
-
-
-            <hr>
-
-        </section>
-
-    </main>
-
+<div class="container">
+  <div class="footer">
+    <hr>
+    <ul>
+      <li><a href="olasubomidadebayo@gmail.com"><img src="images/undraw/email.png" alt="email"></a></li>
+      <li><a href="https://github.com/DanDebayo"><img src="images/undraw/github.png" alt="github"></a></li>
+      <li><a href="https://www.linkedin.com/in/olasubomi-adebayo/"><img src="images/undraw/linked-in.png" alt="linkedin"></a></li>
+      <li><a href="https://www.twitch.tv/backedtrucker307"><img src="images/undraw/twitch.png" alt="twitch"></a></li>
+    </ul>
+  </div>
+</div>
 
 </body>
-
-
 </html>

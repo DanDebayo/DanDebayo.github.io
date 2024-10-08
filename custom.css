@@ -1,0 +1,89 @@
+/* General body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #141617; /* Dark mode background */
+    color: #f9f7f4; /* Light text for dark background */
+}
+
+/* Styling the navigation bar */
+nav ul {
+    list-style: none; /* Remove default bullets */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Arrange list items horizontally */
+    justify-content: flex-start; /* Align items to the left */
+    background-color: #333; /* Dark background for the nav */
+}
+
+nav ul li {
+    margin-right: 20px; /* Spacing between list items */
+}
+
+nav ul li a {
+    color: #f9f7f4; /* Light text color */
+    text-decoration: none; /* Remove underline */
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #555; /* Slight hover effect */
+    border-radius: 5px;
+}
+
+/* Styling for the header (container class) */
+.header.container {
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+/* Adjust the image size for the portrait class */
+.portrait img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Gallery styling */
+.gallery-row {
+    margin-bottom: 20px;
+}
+
+.gallery-row img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.footer {
+    padding: 20px 0;
+    background-color: #333;
+    color: #f9f7f4;
+    text-align: center;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.footer ul li a img {
+    width: 90px; /* Increase the icon size */
+    height: 90px; /* Increase the icon size */
+    border-radius: 50%; /* Optional: Add some rounding for circular icons */
+}
+
+
+.footer ul li a:hover img {
+    opacity: 0.8; /* Optional: Add a slight hover effect */
+}
+
+.footer ul li a:focus,
+.footer ul li a:hover {
+    outline: none; /* Removes any browser default outline */
+    background-color: transparent; /* Ensures no background highlight */
+}
