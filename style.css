@@ -60,10 +60,10 @@
 /* Default dark reader styles */
 html {
     background-color: #141617 !important;
-    color-scheme: light !important;
+    color-scheme: dark !important;
 }
 iframe {
-    color-scheme: light !important;
+    color-scheme: dark !important;
 }
 html, body {
     background-color: #141617;
